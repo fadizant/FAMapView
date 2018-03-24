@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FAMapView_Example' do
+  pod 'FAMapView', :path => '../'
+
+  target 'FAMapView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
