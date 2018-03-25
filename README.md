@@ -76,7 +76,7 @@ Show FAMapViewController inside UINavigationController at least to can close vie
         NSLog(@"Coordinate = %f:%f",coordinate.latitude,coordinate.longitude);
     }];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mapView];
-    nav.title = @"pik location";
+    mapView.title = @"pik location";
     [self presentViewController:nav animated:YES completion:nil];
 ```
 - Coordinate and Address
@@ -85,7 +85,7 @@ Show FAMapViewController inside UINavigationController at least to can close vie
         NSLog(@"Address = %@",address);
     }];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mapView];
-    nav.title = @"pik location";
+    mapView.title = @"pik location";
     [self presentViewController:nav animated:YES completion:nil];
 ```
 - Coordinate and Placemark
@@ -94,7 +94,7 @@ Show FAMapViewController inside UINavigationController at least to can close vie
         NSLog(@"Country = %@ , City = %@",placemark.country,placemark.locality);
     }];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mapView];
-    nav.title = @"pik location";
+    mapView.title = @"pik location";
     [self presentViewController:nav animated:YES completion:nil];
 ```
 
