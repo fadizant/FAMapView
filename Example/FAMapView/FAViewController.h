@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import "FAMapView.h"
 
 @interface FAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet FAMap *mapView;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
 
 @end

@@ -1,0 +1,6 @@
+framework module FAMapView {
+  umbrella header "FAMapView-umbrella.h"
+
+  export *
+  module * { export * }
+}

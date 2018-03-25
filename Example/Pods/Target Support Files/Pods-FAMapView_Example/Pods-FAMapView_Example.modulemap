@@ -1,0 +1,6 @@
+framework module Pods_FAMapView_Example {
+  umbrella header "Pods-FAMapView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

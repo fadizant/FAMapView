@@ -1,0 +1,16 @@
+PODS:
+  - FAMapView (0.1.0)
+
+DEPENDENCIES:
+  - FAMapView (from `../`)
+
+EXTERNAL SOURCES:
+  FAMapView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FAMapView: 405115f31b3ffdff72da0f785a502cbb5356f815
+
+PODFILE CHECKSUM: e16913f2028fc2bedc90d82f5bead4f30bd5df2a
+
+COCOAPODS: 1.4.0

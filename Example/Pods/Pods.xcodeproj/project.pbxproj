@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042DD4D37F40D12D8C77E495B82AA79F /* FAMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6277C150C3C53FBA543C8E3D2382B7 /* FAMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097D6FCA3A9FACA474B639940542F960 /* FAMapView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04FD56A1C4384044051CA02B082760E0 /* FAMapView.bundle */; };
+		26292FEFDADDB2BBB969E2168BEF28DC /* FAMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CFD6808E9DEAEAB492E1623ADD3A8B /* FAMapViewController.xib */; };
+		2BA5034B43D69C40661A164649320B86 /* UIAlertController+FAMapAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D12DB563C66D0F7F5060EB9EFDDAD9 /* UIAlertController+FAMapAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DAC2F8175B8AE35DBFA0BB6D433E349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3716B1DAB839D01FA76F1606DA963159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C13B0A204B63D287CF377BD399C5911 /* Pods-FAMapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32A3DF03332E8F146DDEFEF418F3B9C /* Pods-FAMapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C16AB79A2607ED2E838189AE30146CF /* FAMapViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 22CFD6808E9DEAEAB492E1623ADD3A8B /* FAMapViewController.xib */; };
+		74857A614B39A0550F4CFE1ACEE2A028 /* Pods-FAMapView_Example-FAMapView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A16830595813FE1AAFE1AFB24AB88FA /* Pods-FAMapView_Example-FAMapView_Tests-dummy.m */; };
+		829E2821E970D3916E1E5FBB570D57BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		90BF52AE7A812049C2AFE3233DE04277 /* Pods-FAMapView_Example-FAMapView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EA6367D762E85C215E9A619E639F9C /* Pods-FAMapView_Example-FAMapView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9741E8464499E62F09D06E95A0301DD5 /* FAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A50D4235CFC9894D666C6EBC94A6DE5 /* FAMapViewController.m */; };
+		A378C515B68F880EAE3E15D97DBF3979 /* UIAlertController+FAMapAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5FCD0A44F5B1B958810D0BF63F68B /* UIAlertController+FAMapAlertController.m */; };
+		AFF39FE72030CCBB4B5EA099EDE88937 /* FAMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 627608B14C9E3F920C55A0646143CA74 /* FAMap.m */; };
+		CE4B40009338F8F8D837A822B3A1A385 /* FAMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 774A6CBEAD0DD3E2EC7DC52E54F5609F /* FAMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFED72E0D91EE5A9CE15F6BFF41839C8 /* Pods-FAMapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E8A2F592029207BD9216DD052AF98 /* Pods-FAMapView_Example-dummy.m */; };
+		EF29E93C794FDA4F42CCB18FA7D4F691 /* FAMapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84336907E2CCFA435B7399E7F7CAA911 /* FAMapView-dummy.m */; };
+		F240F8B8FDB87EFF995B00728302DA2E /* FAMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B3A7E36AE52AC4E09038458DB5EECA /* FAMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B675A2172BC1982031674731256345 /* FAMapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD70C5027CD6457BC0E835CCD54AAD1 /* FAMapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873FA911090B38E12F15E98C1407F3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D74EB92BDF88F6747741CC43C00B760;
+			remoteInfo = FAMapView;
+		};
+		8C9D4FEA2819B961867207CE4D82C180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D74EB92BDF88F6747741CC43C00B760;
+			remoteInfo = FAMapView;
+		};
+		E1C6FCC9DAC0A77860D5F72F80F2EE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2891317537C5F186AAA1A6C42A678870;
+			remoteInfo = "FAMapView-FAMapView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0073D3B8C1B896CA93512997C423E569 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FD56A1C4384044051CA02B082760E0 /* FAMapView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FAMapView.bundle; path = "FAMapView-FAMapView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BE5BE376824E8FCAE30B61732626E9 /* Pods-FAMapView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAMapView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22CFD6808E9DEAEAB492E1623ADD3A8B /* FAMapViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FAMapViewController.xib; path = FAMapView/Classes/FAMapViewController.xib; sourceTree = "<group>"; };
+		2A50D4235CFC9894D666C6EBC94A6DE5 /* FAMapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAMapViewController.m; path = FAMapView/Classes/FAMapViewController.m; sourceTree = "<group>"; };
+		2C3DF4B04AC35532A903755AB4065879 /* ResourceBundle-FAMapView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FAMapView-Info.plist"; sourceTree = "<group>"; };
+		2F8E8A2F592029207BD9216DD052AF98 /* Pods-FAMapView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAMapView_Example-dummy.m"; sourceTree = "<group>"; };
+		30198E65C3E1D25F9B8CCBDADA71303E /* FAMapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FAMapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33FC1135B32F80295C0A82E4BE3C3968 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAMapView.xcconfig; sourceTree = "<group>"; };
+		3DF75D1F61D8280B98BE12AE20B1486F /* Pods-FAMapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAMapView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		40D12DB563C66D0F7F5060EB9EFDDAD9 /* UIAlertController+FAMapAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+FAMapAlertController.h"; path = "FAMapView/Classes/UIAlertController+FAMapAlertController.h"; sourceTree = "<group>"; };
+		42E14C89670314A6D4E70B9B7B625CFB /* Pods-FAMapView_Example-FAMapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAMapView_Example-FAMapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC7AF8DD5EC6B7D9B52A381A1FD1D82 /* Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52C86047F41DFBE5C207AAFE08D37F5D /* FAMapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAMapView.modulemap; sourceTree = "<group>"; };
+		52F484E9C8292433A69E300E40D743CB /* Pods-FAMapView_Example-FAMapView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAMapView_Example-FAMapView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16830595813FE1AAFE1AFB24AB88FA /* Pods-FAMapView_Example-FAMapView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAMapView_Example-FAMapView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B8509E2D3A17168861A6CE0419DC61C /* Pods-FAMapView_Example-FAMapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAMapView_Example-FAMapView_Tests.modulemap"; sourceTree = "<group>"; };
+		5C9523CA40B856EF5F4528603DD40B90 /* Pods-FAMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DD5FCD0A44F5B1B958810D0BF63F68B /* UIAlertController+FAMapAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+FAMapAlertController.m"; path = "FAMapView/Classes/UIAlertController+FAMapAlertController.m"; sourceTree = "<group>"; };
+		627608B14C9E3F920C55A0646143CA74 /* FAMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAMap.m; path = FAMapView/Classes/FAMap.m; sourceTree = "<group>"; };
+		6547EFB631A44BF72B2346C2ECC85219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		774A6CBEAD0DD3E2EC7DC52E54F5609F /* FAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAMapView.h; path = FAMapView/Classes/FAMapView.h; sourceTree = "<group>"; };
+		84336907E2CCFA435B7399E7F7CAA911 /* FAMapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAMapView-dummy.m"; sourceTree = "<group>"; };
+		89AAF3FEFE15D8C43816C48255153AAE /* FAMapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAMapView-prefix.pch"; sourceTree = "<group>"; };
+		8B6277C150C3C53FBA543C8E3D2382B7 /* FAMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAMap.h; path = FAMapView/Classes/FAMap.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C030055F87E278C834D27133814218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3DC9C341198C9DEA16A9E6A87596DD8 /* FAMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAMapView.framework; path = FAMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CCA302EA62D050B0D956EAE65820C3 /* Pods_FAMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAMapView_Example.framework; path = "Pods-FAMapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8327026ECBCEF6FF1DD7835EE79BCCC /* Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C55C392D6C38AD900C4C892E09D5200E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C9BC65171708FDF0392F4812BB92AF37 /* Pods-FAMapView_Example-FAMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAMapView_Example-FAMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBD70C5027CD6457BC0E835CCD54AAD1 /* FAMapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAMapView-umbrella.h"; sourceTree = "<group>"; };
+		D6527F7044A5BA3F6D708EB1E04BAC80 /* Pods-FAMapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAMapView_Example.modulemap"; sourceTree = "<group>"; };
+		DB53D2016E5A815309C15BC0790C1EFC /* Pods_FAMapView_Example_FAMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAMapView_Example_FAMapView_Tests.framework; path = "Pods-FAMapView_Example-FAMapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2B2F048AA6F5EAC5EAB59E53E3045F /* Pods-FAMapView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAMapView_Example-resources.sh"; sourceTree = "<group>"; };
+		DF5018A1A968285CBDB17972D4849525 /* Pods-FAMapView_Example-FAMapView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAMapView_Example-FAMapView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E32A3DF03332E8F146DDEFEF418F3B9C /* Pods-FAMapView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAMapView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5EA6367D762E85C215E9A619E639F9C /* Pods-FAMapView_Example-FAMapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAMapView_Example-FAMapView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F019D25537BF25A98CE6AC8EEA4E936C /* Pods-FAMapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAMapView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2B3EF12C1F3244BBC89A7E1D46A2E15 /* Pods-FAMapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAMapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9B3A7E36AE52AC4E09038458DB5EECA /* FAMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAMapViewController.h; path = FAMapView/Classes/FAMapViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A13677105D1139889F9854E28832D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3716B1DAB839D01FA76F1606DA963159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F7791E607C8416E8E61CE5D844F8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B094E4ADFBDD052E735061EDA9EF0C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC2F8175B8AE35DBFA0BB6D433E349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78049E2BB67918A0B44E243EB7DF945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E2821E970D3916E1E5FBB570D57BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A72EE73C2CD50D6A628F0ABA066A78 /* Pods-FAMapView_Example-FAMapView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0073D3B8C1B896CA93512997C423E569 /* Info.plist */,
+				5B8509E2D3A17168861A6CE0419DC61C /* Pods-FAMapView_Example-FAMapView_Tests.modulemap */,
+				B8327026ECBCEF6FF1DD7835EE79BCCC /* Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.markdown */,
+				4FC7AF8DD5EC6B7D9B52A381A1FD1D82 /* Pods-FAMapView_Example-FAMapView_Tests-acknowledgements.plist */,
+				5A16830595813FE1AAFE1AFB24AB88FA /* Pods-FAMapView_Example-FAMapView_Tests-dummy.m */,
+				52F484E9C8292433A69E300E40D743CB /* Pods-FAMapView_Example-FAMapView_Tests-frameworks.sh */,
+				DF5018A1A968285CBDB17972D4849525 /* Pods-FAMapView_Example-FAMapView_Tests-resources.sh */,
+				E5EA6367D762E85C215E9A619E639F9C /* Pods-FAMapView_Example-FAMapView_Tests-umbrella.h */,
+				42E14C89670314A6D4E70B9B7B625CFB /* Pods-FAMapView_Example-FAMapView_Tests.debug.xcconfig */,
+				C9BC65171708FDF0392F4812BB92AF37 /* Pods-FAMapView_Example-FAMapView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FAMapView_Example-FAMapView_Tests";
+			path = "Target Support Files/Pods-FAMapView_Example-FAMapView_Tests";
+			sourceTree = "<group>";
+		};
+		4E2DD03F7EB7972F41A38788080BCA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FD56A1C4384044051CA02B082760E0 /* FAMapView.bundle */,
+				A3DC9C341198C9DEA16A9E6A87596DD8 /* FAMapView.framework */,
+				B2CCA302EA62D050B0D956EAE65820C3 /* Pods_FAMapView_Example.framework */,
+				DB53D2016E5A815309C15BC0790C1EFC /* Pods_FAMapView_Example_FAMapView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533677FA3C63B99DCBB3E5B65FD3D51E /* FAMapView */ = {
+			isa = PBXGroup;
+			children = (
+				8B6277C150C3C53FBA543C8E3D2382B7 /* FAMap.h */,
+				627608B14C9E3F920C55A0646143CA74 /* FAMap.m */,
+				774A6CBEAD0DD3E2EC7DC52E54F5609F /* FAMapView.h */,
+				F9B3A7E36AE52AC4E09038458DB5EECA /* FAMapViewController.h */,
+				2A50D4235CFC9894D666C6EBC94A6DE5 /* FAMapViewController.m */,
+				22CFD6808E9DEAEAB492E1623ADD3A8B /* FAMapViewController.xib */,
+				40D12DB563C66D0F7F5060EB9EFDDAD9 /* UIAlertController+FAMapAlertController.h */,
+				5DD5FCD0A44F5B1B958810D0BF63F68B /* UIAlertController+FAMapAlertController.m */,
+				A3BE0B0F982B409E969E6465F7E7E580 /* Pod */,
+				FE3060BD082FC4EDF996B515EEE849C4 /* Resources */,
+				6C1F8871EB5267B722E20326EE34FEAD /* Support Files */,
+			);
+			name = FAMapView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6C1F8871EB5267B722E20326EE34FEAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C86047F41DFBE5C207AAFE08D37F5D /* FAMapView.modulemap */,
+				3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */,
+				84336907E2CCFA435B7399E7F7CAA911 /* FAMapView-dummy.m */,
+				89AAF3FEFE15D8C43816C48255153AAE /* FAMapView-prefix.pch */,
+				CBD70C5027CD6457BC0E835CCD54AAD1 /* FAMapView-umbrella.h */,
+				33FC1135B32F80295C0A82E4BE3C3968 /* Info.plist */,
+				2C3DF4B04AC35532A903755AB4065879 /* ResourceBundle-FAMapView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FAMapView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EA0F0EEA73651A725BC2C10F9BAE7AC6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4E2DD03F7EB7972F41A38788080BCA80 /* Products */,
+				CFB0C3A1E5261DE069247F0A0DA9F175 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89435BF32BC10E5F487CEAC8818EB6B1 /* Pods-FAMapView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6547EFB631A44BF72B2346C2ECC85219 /* Info.plist */,
+				D6527F7044A5BA3F6D708EB1E04BAC80 /* Pods-FAMapView_Example.modulemap */,
+				F2B3EF12C1F3244BBC89A7E1D46A2E15 /* Pods-FAMapView_Example-acknowledgements.markdown */,
+				06BE5BE376824E8FCAE30B61732626E9 /* Pods-FAMapView_Example-acknowledgements.plist */,
+				2F8E8A2F592029207BD9216DD052AF98 /* Pods-FAMapView_Example-dummy.m */,
+				3DF75D1F61D8280B98BE12AE20B1486F /* Pods-FAMapView_Example-frameworks.sh */,
+				DF2B2F048AA6F5EAC5EAB59E53E3045F /* Pods-FAMapView_Example-resources.sh */,
+				E32A3DF03332E8F146DDEFEF418F3B9C /* Pods-FAMapView_Example-umbrella.h */,
+				5C9523CA40B856EF5F4528603DD40B90 /* Pods-FAMapView_Example.debug.xcconfig */,
+				F019D25537BF25A98CE6AC8EEA4E936C /* Pods-FAMapView_Example.release.xcconfig */,
+			);
+			name = "Pods-FAMapView_Example";
+			path = "Target Support Files/Pods-FAMapView_Example";
+			sourceTree = "<group>";
+		};
+		A3BE0B0F982B409E969E6465F7E7E580 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30198E65C3E1D25F9B8CCBDADA71303E /* FAMapView.podspec */,
+				97C030055F87E278C834D27133814218 /* LICENSE */,
+				C55C392D6C38AD900C4C892E09D5200E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB0C3A1E5261DE069247F0A0DA9F175 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89435BF32BC10E5F487CEAC8818EB6B1 /* Pods-FAMapView_Example */,
+				04A72EE73C2CD50D6A628F0ABA066A78 /* Pods-FAMapView_Example-FAMapView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA0F0EEA73651A725BC2C10F9BAE7AC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				533677FA3C63B99DCBB3E5B65FD3D51E /* FAMapView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE3060BD082FC4EDF996B515EEE849C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0882C27DFF38D5B6B57234BCD5C7F267 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C13B0A204B63D287CF377BD399C5911 /* Pods-FAMapView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BB85D493243221E73FBBEB55A14AA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BF52AE7A812049C2AFE3233DE04277 /* Pods-FAMapView_Example-FAMapView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908EA02EB9AC03F703593EC83A09109B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DD4D37F40D12D8C77E495B82AA79F /* FAMap.h in Headers */,
+				F7B675A2172BC1982031674731256345 /* FAMapView-umbrella.h in Headers */,
+				CE4B40009338F8F8D837A822B3A1A385 /* FAMapView.h in Headers */,
+				F240F8B8FDB87EFF995B00728302DA2E /* FAMapViewController.h in Headers */,
+				2BA5034B43D69C40661A164649320B86 /* UIAlertController+FAMapAlertController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		009E35DD9D7A16296F2D640585453A28 /* Pods-FAMapView_Example-FAMapView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6907E11F98D334CE64890E46A83D6CF /* Build configuration list for PBXNativeTarget "Pods-FAMapView_Example-FAMapView_Tests" */;
+			buildPhases = (
+				50C73403C936DFEA6BC47CCE45DB82B4 /* Sources */,
+				79A13677105D1139889F9854E28832D1 /* Frameworks */,
+				41BB85D493243221E73FBBEB55A14AA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E6B337B17BB84A392B57AAC37A11A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FAMapView_Example-FAMapView_Tests";
+			productName = "Pods-FAMapView_Example-FAMapView_Tests";
+			productReference = DB53D2016E5A815309C15BC0790C1EFC /* Pods_FAMapView_Example_FAMapView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22CC435EF49F17C7E7F2DD99C597C1E9 /* Pods-FAMapView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D378DF6F69AE447FEFEF48F323BB4C /* Build configuration list for PBXNativeTarget "Pods-FAMapView_Example" */;
+			buildPhases = (
+				AC8C84D7137421E59DEB5F6AFBEC3AC2 /* Sources */,
+				B094E4ADFBDD052E735061EDA9EF0C80 /* Frameworks */,
+				0882C27DFF38D5B6B57234BCD5C7F267 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CBBD680E203E6C717C1AC5735AE620D /* PBXTargetDependency */,
+			);
+			name = "Pods-FAMapView_Example";
+			productName = "Pods-FAMapView_Example";
+			productReference = B2CCA302EA62D050B0D956EAE65820C3 /* Pods_FAMapView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2891317537C5F186AAA1A6C42A678870 /* FAMapView-FAMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9ADB49746B60F45C214D2B7E6A2707 /* Build configuration list for PBXNativeTarget "FAMapView-FAMapView" */;
+			buildPhases = (
+				8ECB0AC2A297E525135EC0D84EA50993 /* Sources */,
+				A5F7791E607C8416E8E61CE5D844F8B4 /* Frameworks */,
+				114FA28DA92CC927F4CFC152764CA844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FAMapView-FAMapView";
+			productName = "FAMapView-FAMapView";
+			productReference = 04FD56A1C4384044051CA02B082760E0 /* FAMapView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9D74EB92BDF88F6747741CC43C00B760 /* FAMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815B7613CCFE4A0004ABF1DC123C4D07 /* Build configuration list for PBXNativeTarget "FAMapView" */;
+			buildPhases = (
+				A05E3330FDBBDBAD767D9DA45C52C74A /* Sources */,
+				B78049E2BB67918A0B44E243EB7DF945 /* Frameworks */,
+				92A9D557954002DC53FA82ED627EA0D7 /* Resources */,
+				908EA02EB9AC03F703593EC83A09109B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938B60C1FD05BE6D85C408503734F90B /* PBXTargetDependency */,
+			);
+			name = FAMapView;
+			productName = FAMapView;
+			productReference = A3DC9C341198C9DEA16A9E6A87596DD8 /* FAMapView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E2DD03F7EB7972F41A38788080BCA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D74EB92BDF88F6747741CC43C00B760 /* FAMapView */,
+				2891317537C5F186AAA1A6C42A678870 /* FAMapView-FAMapView */,
+				22CC435EF49F17C7E7F2DD99C597C1E9 /* Pods-FAMapView_Example */,
+				009E35DD9D7A16296F2D640585453A28 /* Pods-FAMapView_Example-FAMapView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114FA28DA92CC927F4CFC152764CA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26292FEFDADDB2BBB969E2168BEF28DC /* FAMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9D557954002DC53FA82ED627EA0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097D6FCA3A9FACA474B639940542F960 /* FAMapView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C73403C936DFEA6BC47CCE45DB82B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74857A614B39A0550F4CFE1ACEE2A028 /* Pods-FAMapView_Example-FAMapView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECB0AC2A297E525135EC0D84EA50993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05E3330FDBBDBAD767D9DA45C52C74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF39FE72030CCBB4B5EA099EDE88937 /* FAMap.m in Sources */,
+				EF29E93C794FDA4F42CCB18FA7D4F691 /* FAMapView-dummy.m in Sources */,
+				9741E8464499E62F09D06E95A0301DD5 /* FAMapViewController.m in Sources */,
+				5C16AB79A2607ED2E838189AE30146CF /* FAMapViewController.xib in Sources */,
+				A378C515B68F880EAE3E15D97DBF3979 /* UIAlertController+FAMapAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8C84D7137421E59DEB5F6AFBEC3AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED72E0D91EE5A9CE15F6BFF41839C8 /* Pods-FAMapView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CBBD680E203E6C717C1AC5735AE620D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAMapView;
+			target = 9D74EB92BDF88F6747741CC43C00B760 /* FAMapView */;
+			targetProxy = 873FA911090B38E12F15E98C1407F3BB /* PBXContainerItemProxy */;
+		};
+		82E6B337B17BB84A392B57AAC37A11A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAMapView;
+			target = 9D74EB92BDF88F6747741CC43C00B760 /* FAMapView */;
+			targetProxy = 8C9D4FEA2819B961867207CE4D82C180 /* PBXContainerItemProxy */;
+		};
+		938B60C1FD05BE6D85C408503734F90B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FAMapView-FAMapView";
+			target = 2891317537C5F186AAA1A6C42A678870 /* FAMapView-FAMapView */;
+			targetProxy = E1C6FCC9DAC0A77860D5F72F80F2EE03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D5235685D7670DC9B2E13F427939E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAMapView/FAMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAMapView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAMapView/FAMapView.modulemap";
+				PRODUCT_NAME = FAMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3550C4746C044E09B4799FA430A1660F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F019D25537BF25A98CE6AC8EEA4E936C /* Pods-FAMapView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAMapView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAMapView_Example/Pods-FAMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAMapView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		642F4383B5192F9C9F59F4E7ACE408D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAMapView/FAMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAMapView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAMapView/FAMapView.modulemap";
+				PRODUCT_NAME = FAMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77FB70D5B177D15D70DA2E60011E9BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E14C89670314A6D4E70B9B7B625CFB /* Pods-FAMapView_Example-FAMapView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAMapView_Example-FAMapView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAMapView_Example-FAMapView_Tests/Pods-FAMapView_Example-FAMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAMapView_Example_FAMapView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94FB182D167FC09E9D24F82150108D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9523CA40B856EF5F4528603DD40B90 /* Pods-FAMapView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAMapView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAMapView_Example/Pods-FAMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAMapView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B113536B96F4C6FB102AFD90B354F888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAMapView";
+				INFOPLIST_FILE = "Target Support Files/FAMapView/ResourceBundle-FAMapView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FAMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E5F95845227562C0307E76C8F4D41740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C13E5030188DA8973715E472BD65B1C /* FAMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FAMapView";
+				INFOPLIST_FILE = "Target Support Files/FAMapView/ResourceBundle-FAMapView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FAMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FD880A924EC8C16F8DCD80337B57C7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BC65171708FDF0392F4812BB92AF37 /* Pods-FAMapView_Example-FAMapView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAMapView_Example-FAMapView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAMapView_Example-FAMapView_Tests/Pods-FAMapView_Example-FAMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAMapView_Example_FAMapView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D378DF6F69AE447FEFEF48F323BB4C /* Build configuration list for PBXNativeTarget "Pods-FAMapView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FB182D167FC09E9D24F82150108D9C /* Debug */,
+				3550C4746C044E09B4799FA430A1660F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815B7613CCFE4A0004ABF1DC123C4D07 /* Build configuration list for PBXNativeTarget "FAMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5235685D7670DC9B2E13F427939E82 /* Debug */,
+				642F4383B5192F9C9F59F4E7ACE408D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6907E11F98D334CE64890E46A83D6CF /* Build configuration list for PBXNativeTarget "Pods-FAMapView_Example-FAMapView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FB70D5B177D15D70DA2E60011E9BC0 /* Debug */,
+				FD880A924EC8C16F8DCD80337B57C7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9ADB49746B60F45C214D2B7E6A2707 /* Build configuration list for PBXNativeTarget "FAMapView-FAMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F95845227562C0307E76C8F4D41740 /* Debug */,
+				B113536B96F4C6FB102AFD90B354F888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
