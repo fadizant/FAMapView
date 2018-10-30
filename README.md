@@ -1,6 +1,5 @@
 # FAMapView
 
-[![CI Status](http://img.shields.io/travis/fadizant/FAMapView.svg?style=flat)](https://travis-ci.org/fadizant/FAMapView)
 [![Version](https://img.shields.io/cocoapods/v/FAMapView.svg?style=flat)](http://cocoapods.org/pods/FAMapView)
 [![License](https://img.shields.io/cocoapods/l/FAMapView.svg?style=flat)](http://cocoapods.org/pods/FAMapView)
 [![Platform](https://img.shields.io/cocoapods/p/FAMapView.svg?style=flat)](http://cocoapods.org/pods/FAMapView)
